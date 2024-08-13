@@ -1,0 +1,63 @@
+.daily-reward__list {
+	margin-top: 24px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 8px;
+	width: 100%;
+}
+
+.daily-reward__item {
+	border-radius: 20px;
+	padding: 20px;
+	position: relative;
+}
+
+.daily-reward__lightning-icon {
+	width: 40px;
+	height: 54px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.daily-reward__item--received {
+	background: #e8fc00;
+	color: #222222;
+}
+
+.daily-reward__item--not-received {
+	background: #292929;
+	color: #a1a1a1;
+}
+
+.daily-reward__item--current {
+	position: relative;
+	border: 1px solid #e8fc00;
+	background: #292929;
+}
+
+.daily-reward__day {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+	position: relative;
+	z-index: 2;
+}
+
+.daily-reward__day-title {
+	font-family: Inter;
+	font-style: italic;
+	font-size: 10px;
+}
+
+.daily-reward__day-reward {
+	font-size: 16px;
+}
+
+.daily-reward__action {
+	width: 100%;
+	margin-top: 24px;
+}

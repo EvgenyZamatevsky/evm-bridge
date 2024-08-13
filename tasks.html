@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/tasks.css" />
+		<script src="https://telegram.org/js/telegram-web-app.js"></script>
+		<title>Tasks</title>
+	</head>
+	<body>
+		<div class="container">
+			<main class="tasks">
+				<section class="about">
+					<h1 class="about__title">EARN MORE COINS</h1>
+					<p class="about__description">
+						We’ll reward you immediately with points
+					</p>
+					<p class="about__description">after each task completion</p>
+				</section>
+
+				<section class="tasks__reward reward">
+					<div class="reward__title">DAILY REWARD</div>
+					<a href="/daily-reward" class="reward__link">
+						<div class="reward__content">
+							<img
+								class="reward__icon"
+								src="/assets/icons/reward.svg"
+								alt="reward"
+							/>
+							<div class="reward__day">
+								<div class="reward__day-title">Day 1</div>
+								<div class="reward__day-value">+500</div>
+							</div>
+						</div>
+
+						<div class="reward__claim">
+							Claim
+							<img
+								class="reward__arrow-icon"
+								src="/assets/icons/arrow-yellow.svg"
+								alt="arrow"
+							/>
+						</div>
+					</a>
+				</section>
+
+				<a href="/enter-code" class="tasks__have-code-link have-code-link">
+					<div class="have-code-link__title">I HAVE THE CODE</div>
+					<div class="have-code-link__content">
+						<div class="have-code-link__description">
+							Follow us on social networks to find new codes
+						</div>
+						<img
+							class="have-code-link__icon"
+							src="/assets/icons/arrow-yellow.svg"
+							alt="arrow"
+						/>
+					</div>
+				</a>
+
+				<section class="tasks__task-list task-list">
+					<h2 class="task-list__title">TASK LIST</h2>
+					<button class="task-list__task task">
+						<div class="task__content">
+							<img
+								class="task__icon"
+								src="/assets/icons/telegram.svg"
+								alt="Telegram"
+							/>
+							<div class="task__body">
+								<p class="task__title">Join the EVM Telegram</p>
+								<p class="task__reward">+500</p>
+							</div>
+						</div>
+						<img
+							class="task__success-icon"
+							src="/assets/icons/success.svg"
+							alt="arrow"
+						/>
+					</button>
+					<button class="task">
+						<div class="task__content">
+							<img
+								class="task__icon"
+								src="/assets/icons/twitter.svg"
+								alt="Twitter"
+							/>
+							<div class="task__body">
+								<p class="task__title">Follow EVN on X</p>
+								<p class="task__reward">+500</p>
+							</div>
+						</div>
+						<img
+							class="task__arrow-icon"
+							src="/assets/icons/arrow-gray.svg"
+							alt="arrow"
+						/>
+					</button>
+					<button class="task">
+						<div class="task__content">
+							<img
+								class="task__icon"
+								src="/assets/icons/metamask.svg"
+								alt="Metamask"
+							/>
+							<div class="task__body">
+								<p class="task__title">Login MetaMask & TG on coNFT.app</p>
+								<p class="task__reward">+500</p>
+							</div>
+						</div>
+						<img
+							class="task__arrow-icon"
+							src="/assets/icons/arrow-gray.svg"
+							alt="arrow"
+						/>
+					</button>
+				</section>
+			</main>
+			<div class="tabs">
+				<div class="tabs__content">
+					<div class="tabs__body">
+						<a href="/" class="tabs__home">
+							<img
+								class="tabs__icon"
+								src="/assets/icons/home-inactive.svg"
+								alt="home"
+							/>
+							<div class="tabs__name">Home</div>
+						</a>
+
+						<a href="/frens" class="tabs__frens">
+							<img
+								class="tabs__icon"
+								src="/assets/icons/frens-inactive.svg"
+								alt="frens"
+							/>
+							<div class="tabs__name">Frens</div>
+						</a>
+
+						<a href="/tasks" class="tabs__tasks">
+							<img
+								class="tabs__icon"
+								src="/assets/icons/tasks-inactive.svg"
+								alt="tasks"
+							/>
+							<div class="tabs__tasks-name">Tasks</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>

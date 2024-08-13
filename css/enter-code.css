@@ -1,0 +1,74 @@
+.total-codes {
+	margin-top: 40px;
+	font-family: Inter;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.total-codes__title {
+	font-size: 16px;
+	color: #a1a1a1;
+}
+
+.total-codes__amount {
+	font-weight: 500;
+	color: #e8fc00;
+}
+
+.enter-code__input {
+	font-family: Inter;
+	margin-top: 24px;
+	width: 100%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	outline: none;
+	background-color: transparent;
+	caret-color: #ffffff;
+	border-bottom: 1px solid #ffffff33;
+	color: inherit;
+}
+
+.enter-code__input::placeholder {
+	color: #a1a1a1;
+}
+
+.enter-code__action {
+	margin-top: 24px;
+}
+
+.code-history {
+	margin-top: 40px;
+}
+
+.code-history__title {
+	font-size: 16px;
+	letter-spacing: 1.86px;
+}
+
+.code-history__codes {
+	margin-top: 8px;
+}
+
+.code-history__code {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ffffff33;
+}
+
+.code-history__code:last-child {
+	border-bottom: none;
+}
+
+.code-history__code-text {
+	font-family: Inter;
+	color: #a1a1a1;
+}
+
+.code-history__icon {
+	width: 24px;
+	height: 24px;
+}

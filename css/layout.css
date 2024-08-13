@@ -1,0 +1,71 @@
+.layout {
+	padding-top: 35px;
+	padding-bottom: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: #e8fc00;
+}
+
+.layout__title {
+	font-size: 31px;
+	color: #222222;
+	text-align: center;
+}
+
+.layout__content {
+	position: relative;
+	margin-top: 110px;
+}
+
+.layout__evm-title {
+	font-size: 153px;
+	color: #222222;
+	font-family: Syncrone-oblique;
+	text-align: center;
+	transform: translateX(-20px);
+	letter-spacing: -19px;
+}
+
+.layout__lightning-icon {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 183.35px;
+	height: 284.58px;
+}
+
+.layout__logo-container {
+	text-align: center;
+	flex: 1 1 auto;
+}
+
+.layout__logo {
+	width: 60px;
+	height: 20px;
+}
+
+.layout__loader {
+	text-align: center;
+}
+
+.layout__button {
+	border-radius: 16px;
+	padding-top: 24px;
+	padding-right: 32px;
+	padding-bottom: 24px;
+	padding-left: 32px;
+	background-color: #222222;
+	box-shadow: 2px 2px 100px 0px #4242421a inset;
+	font-size: 16px;
+	align-items: center;
+	width: 100%;
+	color: inherit;
+	letter-spacing: 1.86px;
+}

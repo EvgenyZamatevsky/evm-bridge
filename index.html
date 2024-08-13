@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/home.css" />
+		<script src="https://telegram.org/js/telegram-web-app.js"></script>
+		<title>Home</title>
+	</head>
+	<body>
+		<div class="container">
+			<main class="home">
+				<section class="home__user user">
+					<img
+						class="user__icon"
+						src="/assets/icons/smile-face.svg"
+						alt="Smile face"
+					/>
+					<h1 class="user__name">My name</h1>
+				</section>
+
+				<section class="home__farming farming">
+					<p class="farming__amount">999,171,500</p>
+					<p class="farming__title">points</p>
+
+					<div class="farming__progress">
+						<div class="farming__progress-bar" style="width: 65%">
+							<!-- new claim available -->
+							new claim will be available soon
+						</div>
+						<div class="farming__timer">
+							<time class="farming__timer-value">7h28m</time>
+						</div>
+					</div>
+
+					<div class="farming__button">
+						<button class="button" disabled>START FARMING</button>
+					</div>
+
+					<img
+						class="farming__lightning-icon"
+						src="/assets/icons/lightning.svg"
+						alt="lightning"
+					/>
+				</section>
+
+				<section class="home__game game">
+					<div class="game__content">
+						<h2 class="game__title">THE NEW GAME</h2>
+						<p class="game__coming-soon">coming soon</p>
+						<div class="game__border"></div>
+					</div>
+					<img
+						class="game__infinity-icon"
+						src="/assets/icons/infinity.svg"
+						alt="infinity"
+					/>
+					<div class="game__button">
+						<img
+							class="game__smiles-icon"
+							src="/assets/icons/smiles.svg"
+							alt="smiles"
+						/>
+						<button class="button" disabled>LET'S GO</button>
+					</div>
+				</section>
+			</main>
+
+			<div class="tabs">
+				<div class="tabs__content">
+					<div class="tabs__body">
+						<a href="/" class="tabs__home">
+							<img
+								class="tabs__icon"
+								src="/assets/icons/home-inactive.svg"
+								alt="home"
+							/>
+							<div class="tabs__name">Home</div>
+						</a>
+
+						<a href="/frens" class="tabs__frens">
+							<img
+								class="tabs__icon"
+								src="/assets/icons/frens-inactive.svg"
+								alt="frens"
+							/>
+							<div class="tabs__name">Frens</div>
+						</a>
+
+						<a href="/tasks" class="tabs__tasks">
+							<img
+								class="tabs__icon"
+								src="/assets/icons/tasks-inactive.svg"
+								alt="tasks"
+							/>
+							<div class="tabs__tasks-name">Tasks</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
