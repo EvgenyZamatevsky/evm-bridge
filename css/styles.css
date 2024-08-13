@@ -261,6 +261,7 @@ h6 {
 }
 
 .tabs__tasks-name {
+	font-family: Inter;
 	font-weight: 500;
 	font-size: 10px;
 }
